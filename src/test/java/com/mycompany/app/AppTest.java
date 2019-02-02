@@ -50,15 +50,15 @@ public class AppTest
         ArrayList<String> strList2 = new ArrayList<String>(Arrays.asList(new String[]{"Moontoes","SanguineBane","Sweetdrop","Quickglow","Twirlcloud"}));
         assertEquals(App.repeat(new ArrayList(),new ArrayList(),new ArrayList(),new ArrayList()),"");
         assertEquals(App.repeat(aList,new ArrayList(),strList,new ArrayList()),"Fatsani\n" +
-                "Fatsani,Ayanda\n" +
-                "Fatsani,Ayanda,Adebayo\n" +
-                "Fatsani,Ayanda,Adebayo,Mtendere\n" +
-                "Fatsani,Ayanda,Adebayo,Mtendere,Azariel\n");
-        assertEquals(App.repeat(new ArrayList(),aList2,new ArrayList(),strList2),"Moontoes,SanguineBane,Sweetdrop,Quickglow,Twirlcloud\n" +
-                "Moontoes,SanguineBane,Sweetdrop,Quickglow\n" +
-                "Moontoes,SanguineBane,Sweetdrop\n" +
-                "Moontoes,SanguineBane\n" +
-                "Moontoes\n");
+                "Ayanda,Ayanda\n" +
+                "Adebayo,Adebayo,Adebayo\n" +
+                "Mtendere,Mtendere,Mtendere,Mtendere\n" +
+                "Azariel,Azariel,Azariel,Azariel,Azariel\n");
+        assertEquals(App.repeat(new ArrayList(),aList2,new ArrayList(),strList2),"Moontoes,Moontoes,Moontoes,Moontoes,Moontoes\n" +
+                "SanguineBane,SanguineBane,SanguineBane,SanguineBane\n" +
+                "Sweetdrop,Sweetdrop,Sweetdrop\n" +
+                "Quickglow,Quickglow\n" +
+                "Twirlcloud\n");
 
     }
 
@@ -69,15 +69,15 @@ public class AppTest
         ArrayList<String> strList2 = new ArrayList<String>(Arrays.asList(new String[]{"Moontoes","SanguineBane","Sweetdrop","Quickglow","Twirlcloud"}));
 
         assertEquals(App.repeat(aList,aList2,strList,strList2),"Fatsani\n" +
-                "Fatsani,Ayanda\n" +
-                "Fatsani,Ayanda,Adebayo\n" +
-                "Fatsani,Ayanda,Adebayo,Mtendere\n" +
-                "Fatsani,Ayanda,Adebayo,Mtendere,Azariel\n" +
-                "Moontoes,SanguineBane,Sweetdrop,Quickglow,Twirlcloud\n" +
-                "Moontoes,SanguineBane,Sweetdrop,Quickglow\n" +
-                "Moontoes,SanguineBane,Sweetdrop\n" +
-                "Moontoes,SanguineBane\n" +
-                "Moontoes\n");
+                "Ayanda,Ayanda\n" +
+                "Adebayo,Adebayo,Adebayo\n" +
+                "Mtendere,Mtendere,Mtendere,Mtendere\n" +
+                "Azariel,Azariel,Azariel,Azariel,Azariel\n" +
+                "Moontoes,Moontoes,Moontoes,Moontoes,Moontoes\n" +
+                "SanguineBane,SanguineBane,SanguineBane,SanguineBane\n" +
+                "Sweetdrop,Sweetdrop,Sweetdrop\n" +
+                "Quickglow,Quickglow\n" +
+                "Twirlcloud\n");
     }
 
 

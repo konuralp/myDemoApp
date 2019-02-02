@@ -117,13 +117,13 @@ public class App
         StringBuilder sb1 = new StringBuilder();
         for(int k=0; k <intList.size(); k++){
                 for (int i = 0; i < intList.get(k); i++) {
-                    sb1.append(strList.get(i)).append((i==intList.get(k)-1 ? "" : ",") );
+                    sb1.append(strList.get(k)).append((i==intList.get(k)-1 ? "" : ",") );
                 }
                 sb1.append("\n");
         }
         for(int k=0; k <intList2.size(); k++){
             for (int i = 0; i < intList2.get(k); i++) {
-                sb1.append(strList2.get(i)).append((i==intList2.get(k)-1 ? "" : ","));
+                sb1.append(strList2.get(k)).append((i==intList2.get(k)-1 ? "" : ","));
             }
             sb1.append("\n");
         }
