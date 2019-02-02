@@ -75,7 +75,7 @@ public class App
             System.out.println(strList2);
             sc4.close();
 
-            String result = App.repeat(intList1,intList2,strList1,strList2);
+            String result = App.repeat(intList1,intList2,strList1,strList2).replace("\n","<br>");
 
             Map map = new HashMap();
             map.put("result", result);
