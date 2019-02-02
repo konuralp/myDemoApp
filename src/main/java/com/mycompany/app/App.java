@@ -52,7 +52,7 @@ public class App
 
 
             String input3 = req.queryParams("intList1");
-            java.util.Scanner sc3 = new java.util.Scanner(input2);
+            java.util.Scanner sc3 = new java.util.Scanner(input3);
             sc1.useDelimiter("[;\r\n]+");
             java.util.ArrayList<Integer> intList1 = new java.util.ArrayList<>();
             while (sc1.hasNext())
@@ -64,7 +64,7 @@ public class App
             sc3.close();
 
             String input4 = req.queryParams("intList2");
-            java.util.Scanner sc4 = new java.util.Scanner(input2);
+            java.util.Scanner sc4 = new java.util.Scanner(input4);
             sc1.useDelimiter("[;\r\n]+");
             java.util.ArrayList<Integer> intList2 = new java.util.ArrayList<>();
             while (sc1.hasNext())
