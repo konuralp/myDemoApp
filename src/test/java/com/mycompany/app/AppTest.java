@@ -54,10 +54,10 @@ public class AppTest
                 "Adebayo,Adebayo,Adebayo\n" +
                 "Mtendere,Mtendere,Mtendere,Mtendere\n" +
                 "Azariel,Azariel,Azariel,Azariel,Azariel\n");
-        assertEquals(App.repeat(new ArrayList(),aList2,new ArrayList(),strList2),"Moontoes,Moontoes,Moontoes,Moontoes,Moontoes\n" +
-                "SanguineBane,SanguineBane,SanguineBane,SanguineBane\n" +
-                "Sweetdrop,Sweetdrop,Sweetdrop\n" +
-                "Quickglow,Quickglow\n" +
+        assertEquals(App.repeat(new ArrayList(),aList2,new ArrayList(),strList2),"Moontoes_Moontoes_Moontoes_Moontoes_Moontoes\n" +
+                "SanguineBane_SanguineBane_SanguineBane_SanguineBane\n" +
+                "Sweetdrop_Sweetdrop_Sweetdrop\n" +
+                "Quickglow_Quickglow\n" +
                 "Twirlcloud\n");
 
     }
@@ -73,10 +73,10 @@ public class AppTest
                 "Adebayo,Adebayo,Adebayo\n" +
                 "Mtendere,Mtendere,Mtendere,Mtendere\n" +
                 "Azariel,Azariel,Azariel,Azariel,Azariel\n" +
-                "Moontoes,Moontoes,Moontoes,Moontoes,Moontoes\n" +
-                "SanguineBane,SanguineBane,SanguineBane,SanguineBane\n" +
-                "Sweetdrop,Sweetdrop,Sweetdrop\n" +
-                "Quickglow,Quickglow\n" +
+                "Moontoes_Moontoes_Moontoes_Moontoes_Moontoes\n" +
+                "SanguineBane_SanguineBane_SanguineBane_SanguineBane\n" +
+                "Sweetdrop_Sweetdrop_Sweetdrop\n" +
+                "Quickglow_Quickglow\n" +
                 "Twirlcloud\n");
     }
 

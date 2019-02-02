@@ -123,7 +123,7 @@ public class App
         }
         for(int k=0; k <intList2.size(); k++){
             for (int i = 0; i < intList2.get(k); i++) {
-                sb1.append(strList2.get(k)).append((i==intList2.get(k)-1 ? "" : ","));
+                sb1.append(strList2.get(k)).append((i==intList2.get(k)-1 ? "" : "_"));
             }
             sb1.append("\n");
         }
