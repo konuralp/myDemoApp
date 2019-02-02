@@ -45,7 +45,7 @@ public class App
             java.util.ArrayList<String> strList2 = new java.util.ArrayList<>();
             while (sc1.hasNext())
             {
-                strList2.add(sc1.next().replaceAll("\\s",""));
+                strList2.add(sc2.next().replaceAll("\\s",""));
             }
             sc2.close();
             System.out.println(strList2);
@@ -57,7 +57,7 @@ public class App
             java.util.ArrayList<Integer> intList1 = new java.util.ArrayList<>();
             while (sc1.hasNext())
             {
-                int value = Integer.parseInt(sc1.next().replaceAll("\\s",""));
+                int value = Integer.parseInt(sc3.next().replaceAll("\\s",""));
                 intList1.add(value);
             }
             System.out.println(strList2);
@@ -69,7 +69,7 @@ public class App
             java.util.ArrayList<Integer> intList2 = new java.util.ArrayList<>();
             while (sc1.hasNext())
             {
-                int value = Integer.parseInt(sc1.next().replaceAll("\\s",""));
+                int value = Integer.parseInt(sc4.next().replaceAll("\\s",""));
                 intList2.add(value);
             }
             System.out.println(strList2);
