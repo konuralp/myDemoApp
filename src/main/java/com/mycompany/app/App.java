@@ -37,6 +37,7 @@ public class App
                 strList1.add(sc1.next().replaceAll("\\s",""));
             }
             System.out.println(strList1);
+            sc1.close();
 
             String input2 = req.queryParams("strList2");
             java.util.Scanner sc2 = new java.util.Scanner(input2);
@@ -46,6 +47,7 @@ public class App
             {
                 strList2.add(sc2.next().replaceAll("\\s",""));
             }
+            sc2.close();
             System.out.println(strList2);
 
 
@@ -59,6 +61,7 @@ public class App
                 intList1.add(value);
             }
             System.out.println(strList2);
+            sc3.close();
 
             String input4 = req.queryParams("intList2");
             java.util.Scanner sc4 = new java.util.Scanner(input4);
@@ -70,6 +73,7 @@ public class App
                 intList2.add(value);
             }
             System.out.println(strList2);
+            sc4.close();
 
             String result = App.repeat(intList1,intList2,strList1,strList2);
 
