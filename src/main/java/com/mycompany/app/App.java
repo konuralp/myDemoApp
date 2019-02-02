@@ -41,9 +41,9 @@ public class App
 
             String input2 = req.queryParams("strList2");
             java.util.Scanner sc2 = new java.util.Scanner(input2);
-            sc1.useDelimiter("[;\r\n]+");
+            sc2.useDelimiter("[;\r\n]+");
             java.util.ArrayList<String> strList2 = new java.util.ArrayList<>();
-            while (sc1.hasNext())
+            while (sc2.hasNext())
             {
                 strList2.add(sc2.next().replaceAll("\\s",""));
             }
@@ -53,9 +53,9 @@ public class App
 
             String input3 = req.queryParams("intList1");
             java.util.Scanner sc3 = new java.util.Scanner(input3);
-            sc1.useDelimiter("[;\r\n]+");
+            sc3.useDelimiter("[;\r\n]+");
             java.util.ArrayList<Integer> intList1 = new java.util.ArrayList<>();
-            while (sc1.hasNext())
+            while (sc3.hasNext())
             {
                 int value = Integer.parseInt(sc3.next().replaceAll("\\s",""));
                 intList1.add(value);
@@ -65,9 +65,9 @@ public class App
 
             String input4 = req.queryParams("intList2");
             java.util.Scanner sc4 = new java.util.Scanner(input4);
-            sc1.useDelimiter("[;\r\n]+");
+            sc4.useDelimiter("[;\r\n]+");
             java.util.ArrayList<Integer> intList2 = new java.util.ArrayList<>();
-            while (sc1.hasNext())
+            while (sc4.hasNext())
             {
                 int value = Integer.parseInt(sc4.next().replaceAll("\\s",""));
                 intList2.add(value);
